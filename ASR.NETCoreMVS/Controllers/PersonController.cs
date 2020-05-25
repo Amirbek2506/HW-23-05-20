@@ -41,5 +41,18 @@ namespace ASR.NETCoreMVS.Controllers
             }
             return RedirectToAction("Read");
         }
+        [HttpGet]
+        public IActionResult Scan()
+        {
+            return View();
+        }
+        [HttpGet]
+        public IActionResult GetScan(PersonViewModel person)
+        {
+            using (IDbConnection db = new SqlConnection(ConnString))
+            {var list= db.Query<PersonViewModel>($"SELECT * FROM PERSON WHERE (LastName Like '%{person.LastName}%') AND (FirstName Like '%{person.FirstName}%')").ToList<PersonViewModel>();
+                return View(list);
+            }
+        }
     }
 }

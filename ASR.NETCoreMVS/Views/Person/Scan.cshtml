@@ -1,9 +1,10 @@
 ﻿@model ASR.NETCoreMVS.Models.Persons.PersonViewModel
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Scan";
 }
-<h4 class="text-info">Добавить новый человек на таблицу</h4>
-<form method="post" action="~/Person/Create">
+
+    <h4 class="text-info">Искат человека из таблицу по ФИО</h4>
+<form method="get" action="~/Person/GetScan">
     <div class="row">
         <div class="col-md-6">
             <div class="input-group">
@@ -31,8 +32,9 @@
     <div class="row">
         <div class="col-md-6">
             <div class="input-group">
-                <input type="submit" class="btn btn-primary" value="Сохранить" />
+                <input type="submit" class="btn btn-primary" value="Поиск" />
             </div>
         </div>
     </div>
 </form>
+
