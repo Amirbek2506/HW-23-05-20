@@ -28,3 +28,4 @@ D:\projects\HW-23-05-20\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\AS
 D:\projects\HW-23-05-20\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\ASR.NETCoreMVS.csproj.CopyComplete
 D:\projects\HW-23-05-20\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\Razor\Views\Person\Read.g.cshtml.cs
 D:\projects\HW-23-05-20\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\projects\HW-23-05-20\ASR.NETCoreMVS\ASR.NETCoreMVS\obj\Debug\netcoreapp2.1\Razor\Views\Person\Create.g.cshtml.cs

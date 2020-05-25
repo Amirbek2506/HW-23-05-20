@@ -1,0 +1,38 @@
+﻿@model ASR.NETCoreMVS.Models.Persons.PersonViewModel
+@{
+    ViewData["Title"] = "Create";
+}
+<h4 class="text-info">Добавить новый человек на таблицу</h4>
+<form method="post" action="~/Person/Create">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <label for="LastName">Фамилия</label><br />
+                <input asp-for="LastName" type="text" class="form-control" placeholder="Фамилия человека" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <label for="FirstName">Имя</label><br />
+                <input asp-for="FirstName" type="text" class="form-control" placeholder="Enter model name" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <label for="MiddleName">Очество</label><br />
+                <input asp-for="MiddleName" type="text" class="form-control" placeholder="Enter manufacture year name" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <input type="submit" class="btn btn-primary" value="Сохранить" />
+            </div>
+        </div>
+    </div>
+</form>
