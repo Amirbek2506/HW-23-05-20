@@ -1,0 +1,22 @@
+﻿@model ASR.NETCoreMVS.Models.Persons.PersonViewModel
+@{
+    ViewData["Title"] = "ScanById";
+}
+<h4 class="text-info">Искат человека из таблицу по Id</h4>
+<form method="get" action="~/Person/Read">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <label for="LastName">Фамилия</label><br />
+                <input asp-for="Id" type="number" class="form-control" placeholder="Id человека" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <input type="submit" class="btn btn-primary" value="Поиск" />
+            </div>
+        </div>
+    </div>
+</form>
