@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASR.NETCoreMVS", "ASR.NETCoreMVS\ASR.NETCoreMVS.csproj", "{96937BF5-7C26-461C-8A7F-9942EA58CADB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96937BF5-7C26-461C-8A7F-9942EA58CADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96937BF5-7C26-461C-8A7F-9942EA58CADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96937BF5-7C26-461C-8A7F-9942EA58CADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96937BF5-7C26-461C-8A7F-9942EA58CADB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4E2FB5C-C43D-4F81-A45E-D7E41774E650}
+	EndGlobalSection
+EndGlobal
